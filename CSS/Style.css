@@ -1,0 +1,117 @@
+html, body {
+
+    overflow-x: hidden;
+}
+.block {
+    border: 12px solid red;
+    width: 200px;
+    height: 80px;
+
+}
+.move{
+
+}
+.boldLine {
+    width: 670px;
+    height: 12px;
+    background-color:#000000;
+
+}
+.thikLine{
+    height: 4px;
+    background-color: red;
+}
+.Row {
+    display: table-row;
+
+
+}
+.Column {
+    display: table-cell;
+}
+.nav-barText{
+    color: black;
+    font-style: unset;
+    font-weight: bold;
+    font-size: large;
+}
+
+.itemBox{
+    background-color: cornsilk;
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 30px;
+    
+}
+.center {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.information{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+.information2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: red;
+
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+    color: rgba(255, 55, 198, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: red;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+
+
